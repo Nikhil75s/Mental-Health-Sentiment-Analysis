@@ -185,7 +185,7 @@ export default function Contact() {
                   <Mail className="h-5 w-5 text-primary mt-0.5" />
                   <div>
                     <h4 className="font-medium">Email</h4>
-                    <p className="text-muted-foreground">contact@mindsense-ai.com</p>
+                    <p className="text-muted-foreground">ns6581@srmist.edu.in</p>
                   </div>
                 </div>
 
@@ -193,7 +193,7 @@ export default function Contact() {
                   <Phone className="h-5 w-5 text-primary mt-0.5" />
                   <div>
                     <h4 className="font-medium">Phone</h4>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">96xxxxx52</p>
                   </div>
                 </div>
 
@@ -202,11 +202,11 @@ export default function Contact() {
                   <div>
                     <h4 className="font-medium">Address</h4>
                     <p className="text-muted-foreground">
-                      123 Innovation Way
+                      522
                       <br />
-                      San Francisco, CA 94103
+                      DElhi
                       <br />
-                      United States
+                      India
                     </p>
                   </div>
                 </div>
