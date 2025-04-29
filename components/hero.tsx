@@ -27,23 +27,23 @@ export default function Hero() {
           <div className="md:w-1/2 mt-12 md:mt-0">
             <div className="relative w-full aspect-square max-w-md mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/10 rounded-full blur-3xl" />
-              <div className="relative bg-card border rounded-xl shadow-xl overflow-hidden">
+              <div className="relative bg-[#0a1022] border border-[#1e2a4a] rounded-xl shadow-xl overflow-hidden">
                 <div className="p-6">
                   <div className="space-y-4">
-                    <div className="h-4 bg-muted rounded w-3/4"></div>
-                    <div className="h-4 bg-muted rounded w-1/2"></div>
-                    <div className="h-4 bg-muted rounded w-5/6"></div>
-                    <div className="h-4 bg-muted rounded w-2/3"></div>
-                    <div className="h-4 bg-muted rounded w-3/4"></div>
+                    <div className="h-4 bg-[#1e2a4a] rounded w-3/4"></div>
+                    <div className="h-4 bg-[#1e2a4a] rounded w-1/2"></div>
+                    <div className="h-4 bg-[#1e2a4a] rounded w-5/6"></div>
+                    <div className="h-4 bg-[#1e2a4a] rounded w-2/3"></div>
+                    <div className="h-4 bg-[#1e2a4a] rounded w-3/4"></div>
                   </div>
-                  <div className="mt-6 p-4 bg-primary/10 rounded-lg">
+                  <div className="mt-6 p-4 bg-[#0f1631] rounded-lg border border-[#1e2a4a]">
                     <div className="flex items-center justify-between">
-                      <div className="h-4 bg-primary/30 rounded w-1/3"></div>
-                      <div className="h-8 w-8 bg-primary/30 rounded-full"></div>
+                      <div className="h-4 bg-[#2a3c64] rounded w-1/3"></div>
+                      <div className="h-8 w-8 bg-[#2d5eb9] rounded-full"></div>
                     </div>
                     <div className="mt-3 space-y-2">
-                      <div className="h-3 bg-muted rounded w-full"></div>
-                      <div className="h-3 bg-muted rounded w-5/6"></div>
+                      <div className="h-3 bg-[#1e2a4a] rounded w-full"></div>
+                      <div className="h-3 bg-[#1e2a4a] rounded w-5/6"></div>
                     </div>
                   </div>
                 </div>

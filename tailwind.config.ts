@@ -53,6 +53,14 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Custom dark blue colors for dashboard
+        darkblue: {
+          100: "#1e2a4a",
+          200: "#0f1631",
+          300: "#0a1022",
+          400: "#2a3c64",
+          500: "#2d5eb9",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

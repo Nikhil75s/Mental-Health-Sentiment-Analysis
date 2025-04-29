@@ -60,3 +60,22 @@
     scroll-behavior: smooth;
   }
 }
+
+/* Dashboard dark theme styles */
+.dashboard-dark {
+  background-color: #0a1022;
+  color: #ffffff;
+}
+
+.dashboard-dark .card {
+  background-color: #0f1631;
+  border-color: #1e2a4a;
+}
+
+.dashboard-dark .highlight {
+  background-color: #2d5eb9;
+}
+
+.dashboard-dark .text-field {
+  background-color: #1e2a4a;
+}

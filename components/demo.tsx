@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { AlertCircle, CheckCircle2, Loader2 } from "lucide-react"
+import { AlertCircle, CheckCircle2, Loader2, RefreshCw } from "lucide-react"
 import { Progress } from "@/components/ui/progress"
 
 type EmotionScore = {
@@ -72,6 +72,11 @@ export default function Demo() {
     }, 2000)
   }
 
+  const resetDemo = () => {
+    setText("")
+    setResult(null)
+  }
+
   return (
     <section id="demo" className="py-16 md:py-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -97,8 +102,8 @@ export default function Demo() {
                 onChange={(e) => setText(e.target.value)}
               />
             </CardContent>
-            <CardFooter>
-              <Button onClick={analyzeText} disabled={!text.trim() || isAnalyzing} className="w-full">
+            <CardFooter className="flex gap-2">
+              <Button onClick={analyzeText} disabled={!text.trim() || isAnalyzing} className="flex-1">
                 {isAnalyzing ? (
                   <>
                     <Loader2 className="mr-2 h-4 w-4 animate-spin" />
@@ -107,6 +112,10 @@ export default function Demo() {
                 ) : (
                   "Analyze Sentiment"
                 )}
+              </Button>
+              <Button variant="outline" onClick={resetDemo} className="flex-none">
+                <RefreshCw className="h-4 w-4 mr-2" />
+                Reset
               </Button>
             </CardFooter>
           </Card>

@@ -81,60 +81,6 @@ export default function Architecture() {
             </div>
           </CardContent>
         </Card>
-
-        <div className="mt-16 grid md:grid-cols-2 gap-8">
-          <div className="bg-card border rounded-xl p-6 md:p-8">
-            <h3 className="text-xl font-bold mb-4">Frontend Architecture</h3>
-            <ul className="space-y-2">
-              <li className="flex items-start">
-                <span className="text-primary mr-2">•</span>
-                <span>React.js with Next.js for server-side rendering</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-primary mr-2">•</span>
-                <span>Tailwind CSS for responsive, modern UI design</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-primary mr-2">•</span>
-                <span>Interactive components for text analysis and surveys</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-primary mr-2">•</span>
-                <span>Data visualization with Chart.js or D3.js</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-primary mr-2">•</span>
-                <span>Progressive Web App capabilities for offline access</span>
-              </li>
-            </ul>
-          </div>
-
-          <div className="bg-card border rounded-xl p-6 md:p-8">
-            <h3 className="text-xl font-bold mb-4">Backend Architecture</h3>
-            <ul className="space-y-2">
-              <li className="flex items-start">
-                <span className="text-primary mr-2">•</span>
-                <span>Node.js + Express for API endpoints and routing</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-primary mr-2">•</span>
-                <span>MongoDB for storing user data and analysis results</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-primary mr-2">•</span>
-                <span>Python FastAPI microservice for ML model execution</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-primary mr-2">•</span>
-                <span>JWT authentication for secure access control</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-primary mr-2">•</span>
-                <span>RESTful API design with comprehensive documentation</span>
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
     </section>
   )

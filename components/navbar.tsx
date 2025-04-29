@@ -55,7 +55,9 @@ export default function Navbar() {
               </Link>
             ))}
             <ModeToggle />
-            <Button size="sm">Sign In</Button>
+            <Button size="sm" asChild>
+              <Link href="/signin">Sign In</Link>
+            </Button>
           </nav>
 
           {/* Mobile menu button */}
@@ -87,8 +89,8 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <Button className="w-full mt-2" size="sm">
-              Sign In
+            <Button className="w-full mt-2" size="sm" asChild>
+              <Link href="/signin">Sign In</Link>
             </Button>
           </div>
         </div>
