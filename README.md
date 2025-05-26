@@ -71,7 +71,9 @@ The **Mental Health Sentiment Analysis System** is an AI-powered web application
 
 | Sign-In Page | Emotion Analysis | Survey Results |
 |--------------|------------------|----------------|
-| ![sign in](https://v0-mental-health-website-lac.vercel.app/signin.png) | ![analysis](https://v0-mental-health-website-lac.vercel.app/demo.png) | ![survey](https://v0-mental-health-website-lac.vercel.app/phq9.png) |
+| ![Sign in](https://github.com/user-attachments/assets/b7542986-f627-4a6f-8cb5-bf583b6c9519)|
+| ![analysis](https://github.com/user-attachments/assets/f6d129b0-c37d-4f0b-a389-103722315551)|
+| ![medical surveys](https://github.com/user-attachments/assets/e0e177f7-5d5e-42d4-9ae0-234738b832e6)|
 
 ---
 
