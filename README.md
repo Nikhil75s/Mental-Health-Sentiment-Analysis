@@ -1,6 +1,7 @@
-# 🧠 Mental Health Sentiment Analysis System
+# 🧠 MINDSENSE AI - Mental Health Sentiment Analysis System
 
-![Project Banner](https://v0-mental-health-website-lac.vercel.app/og-banner.png)
+![MindSense AI](https://github.com/user-attachments/assets/170478ec-65ba-4495-adc9-05cede500f8d)
+
 
 ## 📍 Live Demo
 👉 **[Access the website here](https://v0-mental-health-website-lac.vercel.app/)**
@@ -101,23 +102,3 @@ The **Mental Health Sentiment Analysis System** is an AI-powered web application
 
 ---
 
-## 🧑‍💻 Contributors
-
-- Yash Negi  
-- Shlok Saxena  
-- Nikhil Sharma  
-- Ankit Tehri  
-
-Under the guidance of **Dr. Rolly Gupta**, SRM IST, NCR Campus
-
----
-
-## 📚 References
-
-Includes state-of-the-art academic references and mental health datasets. See `docs/report.pdf` for full documentation.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
