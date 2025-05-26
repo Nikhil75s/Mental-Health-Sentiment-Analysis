@@ -1,0 +1,123 @@
+# 🧠 Mental Health Sentiment Analysis System
+
+![Project Banner](https://v0-mental-health-website-lac.vercel.app/og-banner.png)
+
+## 📍 Live Demo
+👉 **[Access the website here](https://v0-mental-health-website-lac.vercel.app/)**
+
+---
+
+## 📌 Overview
+
+The **Mental Health Sentiment Analysis System** is an AI-powered web application designed to detect emotional and psychological states such as **depression**, **anxiety**, and **stress** from user-generated text using cutting-edge NLP techniques. It aims to bridge the gap between digital expression and mental wellness by providing early sentiment assessment, multilingual support, and clinical survey recommendations.
+
+---
+
+## 💡 Features
+
+- 🎯 **Real-Time Sentiment & Emotion Detection**  
+  Using advanced models like BERT, GPT, and SVM.
+
+- 🧪 **Clinically Validated Survey Integration**  
+  - PHQ-9 (Depression)
+  - GAD-7 (Anxiety)
+
+- 🌐 **Multilingual Input Support**  
+  Analyze mental health sentiment across different languages.
+
+- 📊 **Emotional Trend Visualization**  
+  Interactive dashboards for emotion tracking and analysis.
+
+- 🛡️ **Secure & Scalable Architecture**  
+  Cloud-based, end-to-end encrypted, HIPAA & GDPR compliant.
+
+- 🧠 **Advanced NLP Features**  
+  Named Entity Recognition, sarcasm detection (planned), and emotion classification beyond just positive/negative/neutral.
+
+---
+
+## 🏗️ Tech Stack
+
+| Layer       | Tools/Frameworks                                |
+|-------------|--------------------------------------------------|
+| Frontend    | React.js, Tailwind CSS                          |
+| Backend     | Node.js (Express), MongoDB, JWT Auth            |
+| NLP Engine  | HuggingFace Transformers, BERT, RoBERTa, spaCy  |
+| Deployment  | Vercel, Firebase (for auth/logs), Render/AWS    |
+| Visualization | Chart.js, D3.js                              |
+
+---
+
+## 🔍 How It Works
+
+1. **Input Options**:
+   - Type/Paste Text
+   - Upload File (.txt or .pdf)
+   - Submit URL for article/blog content
+
+2. **NLP Processing Pipeline**:
+   - Text Cleaning → Tokenization → Model Inference (Sentiment/Emotion Detection)
+
+3. **Clinical Suggestion Engine**:
+   - Based on results, the user may be prompted to take PHQ-9 or GAD-7 surveys.
+
+4. **Dashboard Output**:
+   - Results shown in charts, emotion meters, sentence-level breakdowns.
+
+---
+
+## 📷 Screenshots
+
+| Sign-In Page | Emotion Analysis | Survey Results |
+|--------------|------------------|----------------|
+| ![sign in](https://v0-mental-health-website-lac.vercel.app/signin.png) | ![analysis](https://v0-mental-health-website-lac.vercel.app/demo.png) | ![survey](https://v0-mental-health-website-lac.vercel.app/phq9.png) |
+
+---
+
+## 👨‍⚕️ Target Users
+
+- Individuals seeking mental wellness checks
+- Psychologists & therapists
+- Digital health platforms
+- Academic & clinical researchers
+
+---
+
+## 🔒 Privacy & Security
+
+- User data is encrypted and stored securely
+- Role-based access control for therapists/admins
+- Compliance with **HIPAA**, **GDPR**
+
+---
+
+## 🛠️ Future Enhancements
+
+- 🗣️ Voice sentiment analysis
+- 🎯 Aspect-based emotion classification
+- 🤖 AI-based coping recommendations
+- 📱 Mobile app with offline mode
+- 🔄 Continuous learning from feedback
+
+---
+
+## 🧑‍💻 Contributors
+
+- Yash Negi  
+- Shlok Saxena  
+- Nikhil Sharma  
+- Ankit Tehri  
+
+Under the guidance of **Dr. Rolly Gupta**, SRM IST, NCR Campus
+
+---
+
+## 📚 References
+
+Includes state-of-the-art academic references and mental health datasets. See `docs/report.pdf` for full documentation.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
